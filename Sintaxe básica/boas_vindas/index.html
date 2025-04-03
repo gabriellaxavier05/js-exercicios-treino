@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas-vindas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="fnome">Informe seu nome:</label>
+            <input type="text" name="fnome" id="fnome">
+            <input type="button" value="Enviar" id="btnEnviar" onclick="boasVindas()"> <!--- chama a função boasVindas() ao clicar -->
+            <input type="reset" value="Limpar" id="btnLimpar" onclick="limpar()"> <!--- limpa os campos do formulário -->
+        </form>
+    </div>
+
+    <!-- Chamada do arquivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
